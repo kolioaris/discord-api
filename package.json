@@ -1,0 +1,18 @@
+{
+  "name": "discord-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "author": "kolioaris",
+  "description": "A simple Discord API for taplol.",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20260207.0",
+    "@upstash/redis": "^1.36.2",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.63.0"
+  }
+}
